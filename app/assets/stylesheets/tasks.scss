@@ -1,0 +1,35 @@
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif !important;
+  color: #337ab7 !important;
+}
+
+#task_details {
+    font-family: 'Montserrat', sans-serif !important;
+    color: #337ab7 !important;
+    margin-top: 20px;
+    margin-bottom: 1rem;
+    border-width: thin;
+    background-color: #fafafa;
+    border-radius: 4px;
+    font-size: 20px;
+    height: 60px;
+}
+
+
+
+.container {
+  margin-left: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding:30px;
+}
+
+#task_status {
+    display: flex;
+    font-size: 20px;
+    color: #C7C7C7;
+}
+
+
