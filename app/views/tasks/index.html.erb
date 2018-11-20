@@ -1,17 +1,20 @@
 
 <div class="container">
   <h1>My tasks</h1>
-  <ul>
-    <% @tasks.each do |task|  %>
-      <li>
-        <i class="<%= task.completed ? "far fa-calendar-check" : "far fa-calendar"  %>"></i>
-        <%= link_to task.title, task_path(task) %>
-        <%= link_to task_path(task), method: :delete do %>
-          <i class="far fa-trash-alt"></i>
-          <% end %>
-      </li>
-    <% end %>
-  </ul>
+  <div>
+    <ul>
+      <% @tasks.each do |task|  %>
+        <li>
+          <i class="<%= task.completed ? "far fa-calendar-check" : "far fa-calendar"  %>"></i>
+          <%= link_to task.title, task_path(task) %>
+          <%= link_to task_path(task), method: :delete,
+          data: { confirm: "you sure?" } do %>
+            <i class="far fa-trash-alt"></i>
+            <% end %>
+        </li>
+      <% end %>
+    </ul>
+  </div>
 
   <button> <%= link_to 'create a task', new_task_path %></button>
 

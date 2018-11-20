@@ -32,4 +32,47 @@ h1, h2 {
     color: #C7C7C7;
 }
 
+ul {
+  list-style-type: none;
+  font-size:20px;
+  padding-left: 0px;
+  background-color: #fafafa
+}
 
+a {
+  text-decoration: none !important;
+  color: rgb(40, 40, 40)
+}
+
+button {
+  padding:8px;
+  background-color: #337ab7;
+  font-size: 16px;
+  border-radius: 5px;
+  border-style: none;
+  margin:5px;
+}
+
+button a {
+  color: white;
+}
+
+button.back_to_list {
+  font-size: 10px;
+  padding:5px;
+  color: rgb(100, 100, 100);
+  background-color: grey;
+  color: black;
+  margin-left: 0px;
+}
+
+.btn-primary {
+  padding:8px;
+  background-color: #337ab7;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.form-control {
+  font-size: 20px;
+}
