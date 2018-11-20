@@ -48,7 +48,7 @@ button {
   padding:8px;
   background-color: #337ab7;
   font-size: 16px;
-  border-radius: 5px;
+  border-radius: 3px;
   border-style: none;
   margin:5px;
 }
@@ -75,4 +75,57 @@ button.back_to_list {
 
 .form-control {
   font-size: 20px;
+}
+
+.fa-calendar-check:before {
+    content: "\f274";
+    margin-right: 20px;
+}
+
+.fa-calendar:before {
+    content: "\f133";
+    margin-right: 20px;
+}
+
+.fa-trash-alt:before {
+    content: "\f2ed";
+    margin-left: 20px;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    padding: 8px;
+    background-color: #337ab7;
+    font-size: 16px;
+    border-radius: 3px;
+    border-style: none;
+    margin: 5px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    font-size: 15px;
+}
+
+
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+    height: 12px;
+    margin-left: 5px;
+}
+
+input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+    cursor: pointer;
+    padding: 8px;
+    background-color: #337ab7;
+    font-size: 16px;
+    border-radius: 3px;
+    border-style: none;
+    margin: 5px;
+    color: white;
+    margin-left:0px;
 }

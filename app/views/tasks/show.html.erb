@@ -8,7 +8,7 @@
    <i class="<%= @task.completed ? "far fa-calendar-check" : "far fa-calendar" %>"></i>
     </div>
     <div>
-    <p> <%= @task.completed ? "  =>  the task is completed" : "  =>  the task is not completed" %></p>
+    <p> <%= @task.completed ? "  the task is completed" : " the task is not completed" %></p>
     </div>
   </div>
   <button class='back_to_list'> <%= link_to 'back to list', tasks_path %></button>
